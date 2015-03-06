@@ -34,7 +34,6 @@ app.controller('BookmarkController', ['$scope', '$routeParams', '$location', 'Bo
 
         if (path === '/bookmark/edit') {
             $scope.bookmark = {};
-            $scope.findAuxiliar();
             $scope.bookmark.perfis = [];
         }
         ;
