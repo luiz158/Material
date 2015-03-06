@@ -1,0 +1,35 @@
+<div class="main-section">
+    <h3 class="main-section__title">Bookmark - listar</h3>
+
+    <div class="main-section__content">
+
+        <div class="example mt++">
+            <div class="example__content">
+                <div class="data-table-container">
+                    <table id="tabela" class="data-table data-table--has-primary data-table--has-secondary">
+                        <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>released</th>
+                                <th>metascore</th>
+                                <th>plot</th>
+                                <th>director</th>
+                            </tr>
+                        </thead>
+                        <tbody ng-repeat="c in bookmarks">
+                            <tr class="data-table__clickable-row">
+                                <td>{{c.id}}</td>
+                                <td>{{c.released}}</td>
+                                <td>{{c.metascore}}</td>
+                                <td>{{c.plot}}</td>
+                                <td>{{c.director}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

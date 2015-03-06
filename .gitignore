@@ -1,0 +1,12 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+/target/
+/src/main/webapp/
+/nb-configuration.xml
+.classpath
+.project
+.settings/
+nbactions-tomcat7.xml
